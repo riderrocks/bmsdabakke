@@ -1,0 +1,5 @@
+node_modules
+public/stylesheets
+public/javascripts
+public/images
+npm-debug.log

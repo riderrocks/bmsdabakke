@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+	<title>Bms Dabakke</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.min.js" rel="text/javascript">
+</head>
+<body ng-controller="encdecCtrl">
+	<form name="insert" action="" method="post">
+	<h1>Insert Data</h1>
+	<label>Name</label><input type="text" id="name" ng-model="name" placeholder="Enter your name"><br>
+	<label>Email</label><input type="email" id="email" ng-model="email" placeholder="Enter your email id"><br>
+	<label>Message</label><textarea id="msg" ng-model="msg" placeholder="Enter your msg"></textarea> 
+	<button>Insert</button>
+	</form>
+	<br><br>
+	<form name="search" action="" method="post">
+	<h1>Search Data</h1>
+	<label>Search</label><input type="text" id="search" placeholder="Enter emailid to search"><br>
+	</form>
+	<br><br>
+	<h1>Details Data</h1>
+	<div id="decrypt"></div>
+</body>
+</html>
