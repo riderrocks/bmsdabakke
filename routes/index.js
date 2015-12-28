@@ -17,18 +17,21 @@ router.post('/newuser', function(req, res) {
     var userName = req.body.uname;
     var userEmail = req.body.email;
     var message = req.body.msg;
+    var messagebase64 = new Buffer(message).toString('base64');
     var collection = db.get('usercollection');
 
     collection.insert({
         "username" : userName,
         "email" : userEmail,
-        "message" : message
+        "message" : messagebase64
     }, function (err, doc) {
         if (err) {
             console.log('failed');
             res.send("There was a problem adding the information to the database.");
         }
         else {
+            console.log(new Buffer("Hello World").toString('base64'));
+            console.log(new Buffer("SGVsbG8gV29ybGQ=", 'base64').toString('ascii'));
             res.redirect("/submit");
         }
     });
