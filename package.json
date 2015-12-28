@@ -9,6 +9,7 @@
     "body-parser": "*",
     "cookie-parser": "*",
     "debug": "*",
+    "morgan":"*",
     "ejs": "*",
     "express": "*",
     "mongodb": "*",
