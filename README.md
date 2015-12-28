@@ -5,17 +5,17 @@ This project is an application skeleton for a simple html web app using nodejs a
 
 ## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the bmsdabakke repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the angular-seed repository. You can get git from
+You need git to clone the bmsdabakke repository. You can get git from
 [http://git-scm.com/](http://git-scm.com/).
 
 
 ### Clone bmsdabakke
 
-Clone the bmsdabakke repository using [git][git]:
+Clone the bmsdabakke repository using [git]:
 
 ```
 git clone https://github.com/riderrocks/bmsdabakke.git
@@ -24,8 +24,7 @@ cd bmsdabakke
 
 ### Install Dependencies
 
-* We get the tools we depend upon via `npm`, the [node package manager][npm].
-<!-- * We get the angular code via `bower`, a [client-side code package manager][bower]. -->
+* We get the tools we depend upon via `npm`, the [node package manager][npm]
 
 ```
 npm install
